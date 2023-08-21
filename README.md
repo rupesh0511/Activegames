@@ -13,7 +13,7 @@ html
 
 
 
-'html lang="en"': Inside this element, I define the document as an HTML file and set the language to English.
+'html lang="en"': Inside this element, I define the document as an HTML file and set the language to English
 
 
 
