@@ -104,6 +104,8 @@ family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..2
 
 
 I've also included some HTML comments that indicate there might be additional content or elements that could be uncommented and filled with data if needed.
+
+
 CSS
 
 
@@ -112,3 +114,109 @@ CSS
 ![Screenshot 2023-08-21 125511](https://github.com/rupesh0511/Activegames/assets/69234169/3f2c8964-069d-49b8-9da0-5e1176cd2aad)
 ![Screenshot 2023-08-21 125518](https://github.com/rupesh0511/Activegames/assets/69234169/c10d70f0-3f46-439d-87ad-c8b2c7da4e15)
 ![Screenshot 2023-08-21 125525](https://github.com/rupesh0511/Activegames/assets/69234169/9a2f681a-a286-43e8-915c-32b4063a024c)
+
+*: This is a universal selector, selecting all elements on the page.
+
+
+margin: 0;: Sets the margin of all elements to zero.
+
+
+padding: 0;: Sets the padding of all elements to zero.
+
+
+box-sizing: border-box;: Ensures that an element's padding and border are included in its total width and height.
+
+.container: This class styles the main container.
+
+
+width: 100%;: Sets the container's width to 100% of its parent.
+
+
+height: 100vh;: Sets the container's height to 100% of the viewport height.
+
+
+display: flex;: Makes the container a flex container.
+
+.subcontainer-1: This class styles the left sub-container.
+
+
+height: 100%;: Sets the sub-container's height to 100% of its parent.
+
+
+width: 25%;: Sets the sub-container's width to 25% of its parent.
+
+
+background: #EAFAF8;: Sets the background color of the sub-container.
+
+.subchild1: This class styles the user information section.
+
+
+height: 30%;: Sets the section's height to 30% of its parent.
+
+
+text-align: center;: Centers the text horizontally.
+
+.sub1img: This class styles the user image.
+
+
+width: 100px;: Sets the image width to 100 pixels.
+
+
+height: 100px;: Sets the image height to 100 pixels.
+
+
+border-radius: 50%;: Rounds the image corners to create a circular shape.
+
+.subchild2: This class styles the streams and games section.
+
+
+height: 50%;: Sets the section's height to 50% of its parent.
+
+
+display: flex;: Makes the section a flex container.
+
+
+flex-direction: column;: Stacks the child elements vertically.
+
+
+align-items: center;: Centers the child elements horizontally.
+
+
+padding: 10%;: Adds padding for spacing.
+
+.stream: This class styles the stream section.
+
+
+width: 35%;: Sets the section's width to 35% of its parent.
+
+
+display: flex;: Makes the section a flex container.
+
+
+justify-content: center;: Centers the child elements horizontally.
+
+
+margin-bottom: 30px;: Adds bottom margin for spacing.
+
+.subchild3: This class styles the pro membership section.
+
+
+width: 100%;: Sets the section's width to 100% of its parent.
+
+
+height: 20%;: Sets the section's height to 20% of its parent.
+
+
+margin: auto;: Centers the section horizontally.
+
+
+border-radius: 20px;: Rounds the section's corners.
+
+
+display: flex;: Makes the section a flex container.
+
+
+justify-content: center;: Centers the child elements horizontally.
+
+
+background: #80CBC2;: Sets the background color of the section.
