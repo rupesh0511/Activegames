@@ -9,39 +9,101 @@ html
 ![Screenshot 2023-08-21 125437](https://github.com/rupesh0511/Activegames/assets/69234169/a27e6842-d765-4f0d-80e1-048d376bcbc1)
 
 
-Document Type Declaration (<!DOCTYPE html>): I start by declaring the document type as HTML5 to ensure browsers interpret the content correctly.
+'DOCTYPE html': This is where I declare the document type as HTML5 to ensure browsers interpret the content correctly.
 
-HTML Element (<html lang="en">): This is where I define the document as an HTML file and set the language to English.
 
-Head Section (`<head>):
 
-Meta Tags: I use meta tags to provide essential information about the document, such as the character set and viewport settings, which help with proper rendering on various devices.
-Title: I set the title of the web page to "Active Games," which is what will be displayed in the browser's title bar or tab.
-Link Tags: I include link tags to import external stylesheets from Google Fonts and a custom CSS file (styles.css) for styling the webpage.
-Body Section (`<body>):
+'html lang="en"': Inside this element, I define the document as an HTML file and set the language to English.
 
-Container (`<div class="container">): I create a container div to organize the main content of the webpage.
-Subcontainer 1 (<div class="subcontainer-1">): Inside this div, I structure the user profile information section.
 
-Subchild 1 (<div class="subchild1">): Here, I place the user's image and information.
-Image (`<img class="sub1img" src="...">): I insert an image of the user.
-**ID (<div class="id">): I display the user's name and membership status.
-**Subchild 2 (<div class="subchild2">): In this part, I arrange information related to streams, games, and libraries.
-Stream: I use an icon and text to indicate streaming.
-Games: I include icons and text to represent different game sections.
-**Subchild 3 (<div class="subchild3">): This section encourages users to join the "pro" membership for free games.
-Subtext: I provide a heading inviting users to join.
-Image: I insert an image that could be related to the membership offer.
-Subcontainer 2 (<div class="subcontainer-2">): Here, I focus on displaying information about active games.
 
-Heading 1 (`<h1>Active Games</h1>): I set a clear heading indicating that this section is about active games.
-One (<div class="one">): This is currently empty but could be used to display additional content related to active games.
-**Sub-2 (<div class="sub-2">): Inside this div, I create cards to display information about different games.
-First (.first): Each "first" element is like a card that holds details about a game.
-**First Image (<div class="firstimage">): I use this to insert an image of the game.
-**First Content (<div class="firstcontent">): I display information such as the game's name and version.
-**First Percent (<div class="firstpercent">): I show a percentage value, possibly indicating game progress or rating.
+'head':
 
+
+
+'meta charset="UTF-8"': I use this meta tag to specify the character encoding of the document as UTF-8.
+
+
+'meta name="viewport" content="width=device-width, initial-scale=1.0"': These meta tags provide essential metadata about the document, including viewport settings for responsive design.
+
+
+'title' 'Active Games' '/title': I set the title of the web page to "Active Games," which is what will be displayed in the browser's title bar or tab.
+
+
+'link rel="stylesheet" href="https://fonts.googleapis.com/css2?
+
+
+family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /': I include link tags to import external stylesheets from Google Fonts.
+
+
+'link rel="stylesheet" href="styles.css" /': This link tag imports a custom CSS file (styles.css) for styling the webpage.
+
+
+'body':
+
+'div class="container"': I create a container div to organize the main content of the webpage.
+
+
+'div class="subcontainer-1"': Inside this div, I structure the user profile information section.
+
+
+
+'div class="subchild1"': Here, I place the user's image and information.
+
+
+'div class="image"': Inside this div, I insert an image of the user.
+
+
+'div class="id"': I display the user's name and membership status.
+
+
+'div class="subchild2"': In this part, I arrange information related to streams, games, and libraries.
+
+
+'div class="stream"': I use an icon and text to indicate streaming.
+
+
+'div class="games"': I include icons and text to represent different game sections.
+
+
+'div class="subchild3"': This section encourages users to join the "pro" membership for free games.
+
+
+'div class="subtext"': I provide a heading inviting users to join.
+
+
+'div': Inside this div, I insert an image that could be related to the membership offer.
+
+
+'div class="subcontainer-2"': Here, I focus on displaying information about active games.
+
+
+
+'h1' 'Active Games' '/h1': I set a clear heading indicating that this section is about active games.
+
+
+'div class="one"': This is currently empty but could be used to display additional content related to active games.
+
+
+'div class="sub-2"': Inside this div, I create cards to display information about different games.
+
+
+'div class="first"': Each "first" element is like a card that holds details about a game.
+
+
+'div class="firstimage"': I use this to insert an image of the game.
+
+
+'div class="firstcontent"': I display information such as the game's name and version.
+
+
+'div class="firstspace"': This div represents spacing.
+
+
+'div class="firstpercent"': I show a percentage value, possibly indicating game progress or rating.
+
+
+I've also included some HTML comments that indicate there might be additional content or elements that could be uncommented and filled with data if needed.
 CSS
 
 
